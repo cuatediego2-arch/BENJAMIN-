@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Boda de Xiaomi & Benja - Nuestra Promesa Eterna</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        .font-cursive {
+            font-family: 'Great Vibes', cursive;
+        }
+        .font-serif-title {
+            font-family: 'Playfair Display', serif;
+        }
+        .font-sans-body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        /* EFECTO TEXTO ORO METÁLICO BRILLANTE 3D */
+        .gold-text-metallic {
+            background: linear-gradient(
+                135deg, 
+                #a67c1e 0%, 
+                #e8d07a 20%, 
+                #b8860b 40%, 
+                #fef6c7 60%, 
+                #b38728 80%, 
+                #8a6212 100%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0px 2px 2px rgba(90, 65, 10, 0.35));
+        }
+
+        /* Texto Dorado Secundario */
+        .gold-text-subtle {
+            color: #b8860b;
+        }
+
+        /* Borde Oro Metálico */
+        .gold-border {
+            border-image: linear-gradient(135deg, #b8860b, #fef6c7, #b8860b) 1;
+        }
+
+        /* Botón Dorado */
+        .gold-btn {
+            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 30%, #b38728 70%, #aa771c 100%);
+            color: #2e1d03;
+            box-shadow: 0 4px 15px rgba(184, 134, 11, 0.35), inset 0 1px 2px rgba(255, 255, 255, 0.8);
+            transition: all 0.3s ease;
+        }
+        .gold-btn:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 6px 20px rgba(184, 134, 11, 0.5), inset 0 1px 3px rgba(255, 255, 255, 0.9);
+        }
+
+        /* Fondo acuarela suave */
+        .bg-watercolor {
+            background-color: #fdfbf7;
+            background-image: 
+                radial-gradient(circle at 10% 20%, rgba(220, 190, 240, 0.15) 0%, transparent 40%),
+                radial-gradient(circle at 90% 80%, rgba(212, 175, 55, 0.12) 0%, transparent 40%),
+                radial-gradient(circle at 50% 50%, rgba(255, 250, 240, 0.8) 0%, transparent 100%);
+        }
+
+        /* Animación de flotación suave */
+        @keyframes subtleFloat {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+        }
+        .animate-subtle {
+            animation: subtleFloat 4s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body class="bg-stone-200 min-h-screen flex items-center justify-center p-2 sm:p-4 font-sans-body select-none">
+
+    <!-- TARJETA PRINCIPAL TIPO PORTADA INVITACIÓN -->
+    <div class="relative w-full max-w-xl min-h-[820px] bg-watercolor rounded-3xl shadow-2xl border border-amber-200/80 overflow-hidden flex flex-col justify-between my-auto">
+        
+        <!-- ONDAS Y DECORACIÓN DORADA DE ACUARELA EN FONDO -->
+        <svg class="absolute inset-0 w-full h-full pointer-events-none opacity-40" xmlns="http://www.w3.org/2000/svg">
+            <path d="M -50,150 Q 150,50 300,200 T 600,100" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.6"/>
+            <path d="M -20,600 Q 200,750 400,650 T 700,780" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.5"/>
+            <path d="M 100,-20 Q 300,100 500,-10" fill="none" stroke="#b8860b" stroke-width="0.8" stroke-dasharray="4,4"/>
+        </svg>
+
+        <!-- ESQUINA SUPERIOR IZQUIERDA: FLORES MORADAS / LILAS Y RAMAS VERDES -->
+        <div class="absolute top-0 left-0 w-56 h-56 sm:w-72 sm:h-72 pointer-events-none z-10">
+            <svg viewBox="0 0 250 250" class="w-full h-full filter drop-shadow-sm">
+                <!-- Ramas y Hojas Verdes -->
+                <path d="M 0,0 C 80,40 120,20 160,0 C 100,70 140,110 80,120 Z" fill="#5a7d36" opacity="0.7"/>
+                <path d="M 0,60 C 50,110 100,120 130,170 C 80,150 30,130 0,90 Z" fill="#426123" opacity="0.6"/>
+                <path d="M 40,0 Q 100,80 180,50" fill="none" stroke="#6b8e23" stroke-width="3" stroke-linecap="round"/>
+                
+                <!-- Flores Moradas y Lilas en Acuarela -->
+                <!-- Flor Grande Principal -->
+                <g transform="translate(45, 45)">
+                    <circle cx="0" cy="0" r="32" fill="#8b5cf6" opacity="0.85"/>
+                    <circle cx="-8" cy="-8" r="26" fill="#a78bfa" opacity="0.9"/>
+                    <circle cx="8" cy="8" r="22" fill="#c084fc" opacity="0.9"/>
+                    <circle cx="0" cy="0" r="10" fill="#4c1d95"/>
+                    <circle cx="0" cy="0" r="4" fill="#fbbf24"/>
+                </g>
+                <!-- Segunda Flor Morada -->
+                <g transform="translate(110, 35)">
+                    <circle cx="0" cy="0" r="24" fill="#7c3aed" opacity="0.8"/>
+                    <circle cx="-5" cy="-5" r="18" fill="#a78bfa" opacity="0.85"/>
+                    <circle cx="0" cy="0" r="6" fill="#fef08a"/>
+                </g>
+                <!-- Tercera Flor Lila (Abajo) -->
+                <g transform="translate(40, 115)">
+                    <circle cx="0" cy="0" r="26" fill="#9333ea" opacity="0.8"/>
+                    <circle cx="4" cy="-4" r="20" fill="#c084fc" opacity="0.85"/>
+                    <circle cx="0" cy="0" r="7" fill="#fde047"/>
+                </g>
+                <!-- Botones y Pequeños Ramos Lilas -->
+                <circle cx="145" cy="75" r="14" fill="#ddd6fe" opacity="0.9"/>
+                <circle cx="165" cy="50" r="10" fill="#e9d5ff" opacity="0.9"/>
+                <circle cx="95" cy="125" r="16" fill="#c084fc" opacity="0.8"/>
+                <circle cx="125" cy="110" r="11" fill="#e9d5ff" opacity="0.9"/>
+
+                <!-- Destellos y Salpicaduras Doradas -->
+                <circle cx="130" cy="140" r="3" fill="#d4af37"/>
+                <circle cx="170" cy="90" r="4" fill="#fef6c7"/>
+                <circle cx="185" cy="30" r="2.5" fill="#d4af37"/>
+                <circle cx="70" cy="160" r="3.5" fill="#d4af37"/>
+                <path d="M 120,20 Q 150,40 170,15" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+            </svg>
+        </div>
+
+        <!-- ESQUINA SUPERIOR DERECHA: MARCO DORADO Y CORAZÓN -->
+        <div class="absolute top-0 right-0 w-36 h-36 pointer-events-none opacity-80">
+            <svg viewBox="0 0 150 150" class="w-full h-full">
+                <path d="M 150,10 Q 90,20 50,80 Q 110,40 150,10" fill="none" stroke="#d4af37" stroke-width="2"/>
+                <path d="M 150,25 Q 110,40 80,110" fill="none" stroke="#b8860b" stroke-width="1" stroke-dasharray="3,3"/>
+                <!-- Corazón Dorado -->
+                <path d="M 100,45 C 100,40 95,35 90,35 C 84,35 80,40 80,45 C 80,55 100,68 100,68 C 100,68 120,55 120,45 C 120,40 116,35 110,35 C 105,35 100,40 100,45 Z" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+            </svg>
+        </div>
+
+        <!-- SECCIÓN SUPERIOR: TÍTULO -->
+        <div class="pt-16 sm:pt-20 px-6 text-center z-20">
+            <p class="font-sans-body text-xs sm:text-sm tracking-[0.35em] uppercase font-semibold text-amber-900/80 mb-1">
+                Nuestra Promesa Eterna
+            </p>
+            <div class="w-28 h-[1px] bg-gradient-to-r from-transparent via-amber-400 to-transparent mx-auto"></div>
+        </div>
+
+        <!-- SECCIÓN CENTRAL LIBRE EN BLANCO: CONTENIDO Y CONTADOR -->
+        <div class="flex-1 flex flex-col justify-center items-center px-4 sm:px-8 text-center z-20 my-2">
+            
+            <!-- NOMBRES EN CURSIVA DORADA METÁLICA BRILLANTE -->
+            <h1 class="font-cursive text-6xl sm:text-7xl font-bold gold-text-metallic tracking-wide my-2 leading-tight animate-subtle">
+                Xiaomi & Benja
+            </h1>
+
+            <!-- FRASE ROMÁNTICA -->
+            <p class="font-serif-title italic text-stone-600 text-sm sm:text-base max-w-md mx-auto mt-2 mb-6 leading-relaxed">
+                "Un contrato de amor hecho solo para nosotros dos, esperando el gran momento."
+            </p>
+
+            <!-- ADORNO DIVISOR DORADO -->
+            <div class="flex items-center justify-center gap-3 my-2">
+                <div class="h-[1px] w-12 bg-gradient-to-r from-transparent to-amber-400"></div>
+                <svg class="w-4 h-4 text-amber-600 fill-current" viewBox="0 0 24 24">
+                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                <div class="h-[1px] w-12 bg-gradient-to-l from-transparent to-amber-400"></div>
+            </div>
+
+            <!-- CAJA DE CONTADOR REGRESIVO AL 31 DE DICIEMBRE DE 2026 -->
+            <div class="w-full max-w-sm mt-3 p-4 rounded-2xl bg-white/70 backdrop-blur-md border border-amber-300/70 shadow-lg shadow-amber-900/5">
+                <p class="font-sans-body text-[11px] uppercase tracking-widest text-amber-900 font-semibold mb-3">
+                    Tiempo para abrir la propuesta:
+                </p>
+                
+                <div class="grid grid-cols-4 gap-2 text-center">
+                    <!-- Días -->
+                    <div class="flex flex-col p-2 bg-gradient-to-b from-white to-amber-50/50 rounded-xl border border-amber-200/80 shadow-sm">
+                        <span id="days" class="font-serif-title text-2xl sm:text-3xl font-bold text-amber-950">00</span>
+                        <span class="text-[9px] uppercase tracking-wider text-amber-800 font-semibold mt-1">Días</span>
+                    </div>
+                    <!-- Horas -->
+                    <div class="flex flex-col p-2 bg-gradient-to-b from-white to-amber-50/50 rounded-xl border border-amber-200/80 shadow-sm">
+                        <span id="hours" class="font-serif-title text-2xl sm:text-3xl font-bold text-amber-950">00</span>
+                        <span class="text-[9px] uppercase tracking-wider text-amber-800 font-semibold mt-1">Horas</span>
+                    </div>
+                    <!-- Minutos -->
+                    <div class="flex flex-col p-2 bg-gradient-to-b from-white to-amber-50/50 rounded-xl border border-amber-200/80 shadow-sm">
+                        <span id="minutes" class="font-serif-title text-2xl sm:text-3xl font-bold text-amber-950">00</span>
+                        <span class="text-[9px] uppercase tracking-wider text-amber-800 font-semibold mt-1">Min</span>
+                    </div>
+                    <!-- Segundos -->
+                    <div class="flex flex-col p-2 bg-gradient-to-b from-white to-amber-50/50 rounded-xl border border-amber-200/80 shadow-sm">
+                        <span id="seconds" class="font-serif-title text-2xl sm:text-3xl font-bold text-amber-900 animate-pulse">00</span>
+                        <span class="text-[9px] uppercase tracking-wider text-amber-800 font-semibold mt-1">Seg</span>
+                    </div>
+                </div>
+
+                <p id="targetDateText" class="text-[10px] text-stone-500 mt-3 font-medium">
+                    Fecha especial: 31 de Diciembre de 2026 • 23:59:59 PM
+                </p>
+            </div>
+
+            <!-- BOTÓN INTERACTIVO ABRIR INVITACIÓN -->
+            <button onclick="openContractModal()" class="gold-btn mt-6 px-8 py-3.5 rounded-full font-sans-body text-xs sm:text-sm font-semibold tracking-widest uppercase cursor-pointer flex items-center gap-2">
+                <span>Abrir Invitación</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+            </button>
+
+        </div>
+
+        <!-- ESQUINA INFERIOR DERECHA: ILUSTRACIÓN DE NOVIOS Y FLORES MORADAS -->
+        <div class="relative w-full h-48 sm:h-56 z-10 pointer-events-none flex justify-between items-end px-2 pb-0">
+            
+            <!-- Adornos florales izquierda inferior -->
+            <div class="w-32 h-32 opacity-50">
+                <svg viewBox="0 0 120 120" class="w-full h-full">
+                    <circle cx="20" cy="100" r="14" fill="#a78bfa"/>
+                    <circle cx="45" cy="90" r="10" fill="#c084fc"/>
+                    <circle cx="15" cy="75" r="8" fill="#ddd6fe"/>
+                    <path d="M 0,120 Q 50,80 80,120" fill="none" stroke="#d4af37" stroke-width="1.5"/>
+                </svg>
+            </div>
+
+            <!-- ILUSTRACIÓN DE NOVIOS (Él en traje beige, ella en vestido blanco con ramo) -->
+            <div class="w-44 h-52 sm:w-52 sm:h-60 relative flex items-end justify-end mr-1">
+                <svg viewBox="0 0 180 220" class="w-full h-full filter drop-shadow-md">
+                    <!-- Flores Moradas Base bajo los novios -->
+                    <circle cx="60" cy="200" r="18" fill="#8b5cf6" opacity="0.85"/>
+                    <circle cx="90" cy="205" r="15" fill="#a78bfa" opacity="0.9"/>
+                    <circle cx="120" cy="200" r="16" fill="#c084fc" opacity="0.85"/>
+                    <circle cx="145" cy="205" r="12" fill="#7c3aed" opacity="0.8"/>
+                    <circle cx="35" cy="205" r="12" fill="#ddd6fe" opacity="0.9"/>
+
+                    <!-- NOVIO (Traje Beige Elegantísimo) -->
+                    <g id="groom">
+                        <!-- Cuerpo / Traje -->
+                        <path d="M 55,220 L 60,130 L 45,90 L 58,45 Q 68,35 78,45 L 82,90 L 78,130 L 82,220 Z" fill="#d6c5b3"/>
+                        <path d="M 62,90 L 68,130 L 74,90" fill="#b8a590"/>
+                        <!-- Camisa y Solapa -->
+                        <path d="M 62,45 L 68,75 L 74,45" fill="#ffffff"/>
+                        <path d="M 67,50 L 69,75 L 71,50" fill="#4a3b32"/> <!-- Corbata -->
+                        <!-- Cabeza -->
+                        <circle cx="68" cy="30" r="12" fill="#fce7f3"/>
+                        <!-- Cabello -->
+                        <path d="M 58,22 C 62,12 76,12 78,25 C 72,20 62,20 58,22 Z" fill="#4a2e18"/>
+                    </g>
+
+                    <!-- NOVIA (Vestido Blanco con Velo y Ramo) -->
+                    <g id="bride">
+                        <!-- Vestido de Novia Blanco Elegante -->
+                        <path d="M 78,220 Q 90,120 98,85 Q 90,55 95,45 C 100,35 112,40 114,45 Q 118,55 112,85 Q 135,130 155,220 Z" fill="#ffffff" stroke="#f3e8ff" stroke-width="1.5"/>
+                        <!-- Pliegues y sombra del vestido -->
+                        <path d="M 98,110 Q 115,160 148,220" fill="none" stroke="#f3e8ff" stroke-width="2"/>
+                        <path d="M 92,130 Q 102,170 128,220" fill="none" stroke="#f3e8ff" stroke-width="1.5"/>
+                        
+                        <!-- Velo de Novia -->
+                        <path d="M 104,28 Q 125,50 120,110 Q 108,70 106,35 Z" fill="#ffffff" opacity="0.6"/>
+
+                        <!-- Cabeza -->
+                        <circle cx="106" cy="28" r="11" fill="#fce7f3"/>
+                        <!-- Cabello Largo -->
+                        <path d="M 98,20 C 100,8 118,12 116,30 C 120,40 102,48 98,28 Z" fill="#5c3a21"/>
+
+                        <!-- Ramo de Flores en las manos -->
+                        <g transform="translate(88, 88)">
+                            <circle cx="0" cy="0" r="8" fill="#c084fc"/>
+                            <circle cx="-5" cy="-3" r="5" fill="#e9d5ff"/>
+                            <circle cx="4" cy="-4" r="5" fill="#ffffff"/>
+                            <circle cx="2" cy="4" r="5" fill="#a78bfa"/>
+                        </g>
+                    </g>
+
+                    <!-- Detalle de Destellos Dorados Abajo -->
+                    <circle cx="85" cy="190" r="2.5" fill="#d4af37"/>
+                    <circle cx="110" cy="185" r="3" fill="#fef6c7"/>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- MODAL INFORMATIVO AL HACER CLIC EN ABRIR -->
+    <div id="infoModal" class="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50 hidden">
+        <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-sm w-full text-center border-2 border-amber-300 shadow-2xl relative">
+            <div class="w-14 h-14 bg-amber-100 rounded-full flex items-center justify-center mx-auto mb-4 text-amber-700 shadow-inner">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                </svg>
+            </div>
+            <h3 class="font-serif-title text-2xl font-bold text-stone-800 mb-2">¡Promesa Guardada!</h3>
+            <p class="font-sans-body text-xs text-stone-600 mb-6 leading-relaxed">
+                Esta es la portada de tu invitación. El contador en tiempo real está avanzando hacia el <strong class="text-amber-900">31 de Diciembre de 2026</strong> para develar el contrato de matrimonio.
+            </p>
+            <button onclick="closeContractModal()" class="gold-btn w-full py-3 rounded-xl font-sans-body text-xs uppercase tracking-wider font-semibold">
+                Entendido
+            </button>
+        </div>
+    </div>
+
+    <!-- SCRIPT LÓGICO DE CUENTA REGRESIVA -->
+    <script>
+        // Fecha objetivo: 31 de Diciembre de 2026 a las 23:59:59 PM
+        const targetDate = new Date('December 31, 2026 23:59:59').getTime();
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const difference = targetDate - now;
+
+            if (difference > 0) {
+                const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+                document.getElementById('days').innerText = String(days).padStart(2, '0');
+                document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+                document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+                document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+            } else {
+                document.getElementById('days').innerText = "00";
+                document.getElementById('hours').innerText = "00";
+                document.getElementById('minutes').innerText = "00";
+                document.getElementById('seconds').innerText = "00";
+                document.getElementById('targetDateText').innerText = "¡El momento ha llegado! El contrato está listo.";
+            }
+        }
+
+        // Iniciar reloj y refrescar cada segundo
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // Control del Modal
+        function openContractModal() {
+            document.getElementById('infoModal').classList.remove('hidden');
+        }
+
+        function closeContractModal() {
+            document.getElementById('infoModal').classList.add('hidden');
+        }
+    </script>
+</body>
+  </html>
